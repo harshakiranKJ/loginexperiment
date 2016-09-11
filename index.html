@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='style.css'/>
+		<link rel='stylesheet' href='fa/css/font-awesome.min.css'/>
+		<script type='text/javascript' src='jquery.min.js'></script>
+		<script type='text/javascript' src='script.js'></script>
+	</head>
+	<body id='starAnim'>
+
+		<div class='edit-modalBg'  >
+		    <div class='edit-navBar'>
+		     <div class='editnavbar-wrap'>
+		    	<input type='text' placeholder='Email'>
+		    	<input type='password' placeholder='Password'>
+		    	<button class='edit-btn'>Login <i class='fa fa-angle-down'></i></button>
+		    </div>
+		    </div>
+			<div class="edit-modal editmodalOne" style='display:none'>
+				<header class='editmod-head'>TITLE</header>
+				<span class='editmod-span'>LOGIN</span>
+				<button class='edit-btn editBtn-fb'>
+				   <i class='fa fa-facebook'></i>
+				   <span>Login With Facebook</span>
+				</button>
+				<button class='edit-btn editBtn-gg'>
+				   <i class='fa fa-google'></i>
+				   <span>Login With Google</span>
+				</button>
+				<i class='editModal-or'>-or-</i>
+				<form class='edit-form'>
+					<div class='editForm-inp'>
+						<input type='text' placeholder='Username / Email' />
+						<input type='password' placeholder='Password' />
+					</div>
+					<button type='submit' class='edit-Submit'>
+					   Login
+					</button>
+				</form>
+				<div class='editModal-footer'>
+					Help, I forgot my login details !
+				</div>
+				<div class='edit-loginSwitch ELSOne'>
+					Sign Up !
+				</div>
+			</div>
+			
+			<!--Moal One End-->
+			<div class="edit-modal editmodalTwo" >
+			   <header class='editmod-head'>TITLE</header>
+				<span class='editmod-span'>New member ? Sign Up</span>
+				<button class='edit-btn editBtn-fb'>
+				   <i class='fa fa-facebook'></i>
+				   <span>Sign Up With Facebook</span>
+				</button>
+				<button class='edit-btn editBtn-gg'>
+				   <i class='fa fa-google'></i>
+				   <span>Sign Up With Google</span>
+				</button>
+				<i class='editModal-or'>-or-</i>
+				<form class='edit-form'>
+					<button type='button' class='edit-Submit ELSThree' >
+					   Sign Up with TITLE ! 
+					</button>
+				</form>
+				<div class='editModal-footer'>
+					By Signing up you are agree to the<br><br>
+					<a href='#'>Terms & Conditions </a><br><br> & <br><br>
+					<a href='#'>Privacy Policy </a> 
+				</div>
+				<div class='edit-loginSwitch ELSFour' style='margin-top:135px'>
+					Login
+				</div>
+			</div>
+			<!--Modal 2 End-->
+			<div class="edit-modal editmodalThree" style='display:none'>
+				<header class='editmod-head'>TITLE</header>
+				<span class='editmod-span'>Sign Up</span>
+				<form class='edit-form'>
+					<div class='editForm-inp efi-two'>
+						<input type='text' placeholder='Full Name' />
+						<input type='password' placeholder='Email' />
+						<input type='password' placeholder='Re-Enter Email' />
+						<input type='password' placeholder='Password' />
+					</div>
+					<button type='button' class='edit-Submit'>
+					   Sign Up
+					</button>
+				</form>
+				<div class='edit-loginSwitch ELSTwo' style='margin-top:75px'>
+					Sign Up with Social!
+				</div>
+			</div>
+		 </div>
+		 <canvas id='stAn-can'></canvas>
+	</body>
+</html>

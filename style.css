@@ -1,0 +1,65 @@
+body{padding:0;margin:0;background:#e5e5e5;background:url(my.png) no-repeat center center;background-size: 100%;
+background-position: center;background-clip: border-box;}
+@font-face{font-family:fOne;src:url(fonts/Raleway-Light.ttf)}
+@font-face{font-family:fTwo;src:url(fonts/Raleway-ExtraBold.ttf)}
+.edit-modalBg{width:100%;height:100%;position:fixed;top:0;left:0;background:rgba(0,0,0,0.5);}
+.edit-modal{width:400px;height:450px;margin:auto;margin-top:100px;border-radius:5px;background:#fff;position:relative;
+font-family:fOne;}
+.edit-navBar{height:50px;width:100%;float:right;line-height:70px;}
+.edit-navBar .editnavbar-wrap{float:right;margin-right:20px;}
+.edit-navBar input{height:40px;width:200px;padding:0 10px;border:none;background:none;color:#fff;font-family:fTwo;
+outline:none;border-radius:10px/20px;background:rgba(0,0,0,0.4);}
+.edit-navBar button{background:none;border:none;background:#cddc39;color:white;border-radius:3px;height:35px;
+padding-left:10px;}
+.edit-navBar button .fa{padding:0 5px;margin-left:10px;}
+.edit-modal .editmod-head{width:130px;height:130px;line-height:130px;text-align:center;color:#fff;background:skyblue;position:absolute;
+margin-left:35%;margin-top:-50px;border-radius:50%;font-size:30px;font-family:fTwo;}
+.edit-modal .editmod-span{display:block;width:100%;color:#ddd;text-align:center;font-size:18px;margin-top:90px;float:left;}
+.edit-modal .edit-btn{width:90%;padding:12px 10px;border-radius:5px;border:none;border:none;text-align:center;float:left;
+margin-left:20px;margin-top:5px;font-family:fOne;color:white;cursor:pointer;}
+.editModal-or{width:100%;text-align:center;float:left;font-size:15px;color:#ddd;margin-top:10px;}
+.edit-modal .edit-btn .fa{float:left;margin-left:10px;font-size:20px;}
+.edit-modal .edit-btn span{float:left;margin-left:100px;}
+.edit-modal .editBtn-fb{background:#3b5998;}
+.edit-modal .editBtn-fb:hover{background:#3a61b4;}
+.edit-modal .editBtn-gg{background:#d34836;}
+.edit-modal .editBtn-gg:hover{background:#dd4b39;}
+.edit-modal .editForm-inp{width:90%;height:100px;float:left;margin-left:20px;margin-top:10px;
+border-radius:10px;overflow:hidden;}
+.edit-modal .editForm-inp input{width:100%;height:49%;border:none;border:1px solid #eee;padding:0 15px;outline:none;
+font-family:fOne;transition:border .5s;}
+.edit-modal .editForm-inp input:nth-child(1){border-top-left-radius:10px;border-top-right-radius:10px;}
+.edit-modal .editForm-inp input:nth-child(2){border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.edit-modal .editForm-inp input:focus{border-color:skyblue;}
+.edit-modal .edit-Submit{width:85%;height:35px;text-align:center;outline:none;color:white;font-family:fOne;background:skyblue;
+border:none;border-radius:5px;margin-left:30px;margin-top:20px;font-weight:bold;}
+.edit-modal .edit-Submit:active{background:#7fbfd9;}
+.edit-modal .editModal-footer{display:block;float:left;width:100%;text-align:center;margin-top:10px;width:80%;margin-left:40px;
+height:30px;font-size:13px;line-height:10px;color:#aaa;cursor:pointer;}
+.edit-modal .editModal-footer a{color:skyblue;text-decoration: none;}
+.edit-modal .editModal-footer a:hover{text-decoration: underline;}
+.edit-modal .efi-two{border-radius:0px;height:auto;overflow:none;}
+.edit-modal .efi-two input{margin-top:10px;height:45px;}
+.edit-modal .efi-two input:nth-child(1){border-top-left-radius:0px;border-top-right-radius:0px;}
+.edit-modal .efi-two input:nth-child(2){border-bottom-left-radius:0px;border-bottom-right-radius:0px;}
+
+.edit-loginSwitch{width:100%;float:left;font-weight:bold;font-size:15px;text-align:center;font-family:fOne;cursor: pointer;
+margin-top:40px;text-shadow:0 0 5px black;color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
